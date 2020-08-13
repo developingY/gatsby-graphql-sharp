@@ -1,7 +1,7 @@
 {
   "name": "gatsby-graphql-sharp",
   "version": "1.1.1",
-  "description": "An plugin help to convert graphql image urls to sharp images.",
+  "description": "Convert graphql image urls to sharp image nodes.",
   "main": "index.js",
   "repository": {
     "type": "git",
