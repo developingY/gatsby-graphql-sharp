@@ -117,12 +117,12 @@ graphql`
 - [gatsby-plugin-sharp](https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/)
 - [gatsby-transformer-sharp](https://www.gatsbyjs.org/packages/gatsby-transformer-sharp/)
 
-### Notes and tips
+## Notes and tips
 
 - Remember to query the image url you wanted to create sharp node with, otherwise the plugin won't be triggered.
 - The plugin will log twice if you turned on debug mode, which is as expected and won't affect your app performance. It's caused by the plugin [gatsby-source-graphql](https://www.gatsbyjs.org/packages/gatsby-source-graphql/)
 - Do not hot reload the app when gatsby is creating the nodes, if you did that and get error about couldn't find the sharp node, you need to rebuild again.
 
-### Credits
+## Credits
 
 Inspiration from [Rocketmakers](https://www.gatsbyjs.com/plugins/gatsby-plugin-graphql-image/?=gatsby-plugin-graphql-image)
