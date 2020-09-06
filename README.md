@@ -70,7 +70,7 @@ graphql`
         cover_image_url
         author_image_url
       }
-    }t
+    }
   }
 `
 ```
